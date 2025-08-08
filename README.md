@@ -34,8 +34,9 @@
   <a href="https://www.linkedin.com/in/rebeca-catuaba-5babaa256/" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
   </a>
+<a><img align="right" alt="ftoBug" height="150" width="150" src="https://cdn.discordapp.com/attachments/946444561734062080/1403447156609650809/download20250805152102.png?ex=68979584&is=68964404&hm=659f0d3c8f910c3a00dd731c22dfd8a792d2cc7893a7e278ac47362cab1168d7"></a>
 </div>
-<div><img align="right" alt="ftoBug" height="150" width="150" src="https://cdn.discordapp.com/attachments/946444561734062080/1403447156609650809/download20250805152102.png?ex=68979584&is=68964404&hm=659f0d3c8f910c3a00dd731c22dfd8a792d2cc7893a7e278ac47362cab1168d7"></div>
+<div></div>
 
 
 
