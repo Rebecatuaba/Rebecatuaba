@@ -1,10 +1,8 @@
 ## Olá, eu sou a Rebeca Catuaba estudante de Engenharia de Computação!
 
-<div>
-  <a href="https://beacons.ai/rafaballerini">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Rebecatuaba&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rebecatuaba&layout=compact&langs_count=16&theme=midnight-purple"/>
-  </a>
+<div align="center">
+  <img height="180em" src="./profile/stats.svg"/>
+  <img height="180em" src="./profile/top-langs.svg"/>
 </div>
 
 ##
