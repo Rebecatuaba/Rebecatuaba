@@ -1,4 +1,3 @@
-
 name: Atualizar cards do GitHub
 
 on:
@@ -9,34 +8,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
     steps:
-      - name: Baixar repositório
-        uses: actions/checkout@v6
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Gerar card de estatísticas
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Generate metrics/stats cards
+        uses: anuraghazra/github-readme-stats@master
         with:
-          card: stats
-          options: username=Rebecatuaba&show_icons=true&theme=midnight-purple
-          path: profile/stats.svg
+          username: Rebecatuaba
+          show_icons: true
+          theme: midnight-purple
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Gerar card de linguagens
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=Rebecatuaba&layout=compact&langs_count=15&include_all_commits=true&theme=midnight-purple
-  
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Salvar cards no repositório
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git commit -m "Atualizar cards de estatísticas" || exit 0
-          git push
