@@ -29,7 +29,8 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=Rebecatuaba&layout=compact&langs_count=10&exclude_repo=nome_de_repo_ignorado&hide_border=true&theme=midnight-purple
+          options: username=Rebecatuaba&layout=compact&langs_count=15&include_all_commits=true&theme=midnight-purple
+  
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Salvar cards no repositório
